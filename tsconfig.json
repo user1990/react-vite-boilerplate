@@ -16,13 +16,23 @@
     "isolatedModules": true,
     "noEmit": true,
     "noUnusedLocals": false,
+    "noImplicitAny": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
       "components/*": ["./src/components/*"],
+      "pages/*": ["./src/pages/*"],
+      "app/*": ["./src/app/*"],
+      "config/*": ["./src/config/*"],
+      "hooks/*": ["./src/hooks/*"],
+      "assets/*": ["./src/assets/*"],
+      "layouts/*": ["./src/layouts/*"],
       "utils/*": ["./src/utils/*"],
       "context/*": ["./src/context/*"],
-      "models/*": ["./src/models/*"]
+      "models/*": ["./src/models/*"],
+      "types/*": ["./src/types/*"],
+      "routes/*": ["./src/routes/*"],
+      "constants/*": ["./src/constants/*"]
     }
   },
   "exclude": ["node_modules"],
