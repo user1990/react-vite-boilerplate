@@ -20,15 +20,12 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "components/*": ["./src/components/*"],
+      "common/*": ["src/common/*"],
       "pages/*": ["./src/pages/*"],
       "app/*": ["./src/app/*"],
       "config/*": ["./src/config/*"],
-      "hooks/*": ["./src/hooks/*"],
       "assets/*": ["./src/assets/*"],
-      "layouts/*": ["./src/layouts/*"],
       "utils/*": ["./src/utils/*"],
-      "context/*": ["./src/context/*"],
       "models/*": ["./src/models/*"],
       "types/*": ["./src/types/*"]
     }

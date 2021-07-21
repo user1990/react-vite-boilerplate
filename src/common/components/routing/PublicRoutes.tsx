@@ -1,7 +1,7 @@
 import { Route } from 'react-router-dom';
 
 import React from 'react';
-import { publicRoutesConfig as publicRoutes } from '../../config/routes-config';
+import { publicRoutesConfig as publicRoutes } from '../../../config/routes-config';
 
 export const PublicRoutes = (): JSX.Element => (
   <>
