@@ -1,5 +1,5 @@
 import intersection from 'lodash.intersection';
-import { RouteType } from 'types/route';
+import { RouteType } from 'types/routing.types';
 
 export const isLoggedIn = (): boolean => !!localStorage.getItem('roles');
 

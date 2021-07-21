@@ -30,9 +30,7 @@
       "utils/*": ["./src/utils/*"],
       "context/*": ["./src/context/*"],
       "models/*": ["./src/models/*"],
-      "types/*": ["./src/types/*"],
-      "routes/*": ["./src/routes/*"],
-      "constants/*": ["./src/constants/*"]
+      "types/*": ["./src/types/*"]
     }
   },
   "exclude": ["node_modules"],

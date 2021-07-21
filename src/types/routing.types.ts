@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { RouteComponentProps } from 'react-router-dom';
 
-import { Roles } from './roles';
+import { Roles } from './roles.types';
 
 export type RouteType = {
   component: FC<RouteComponentProps>;

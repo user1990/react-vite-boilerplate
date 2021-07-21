@@ -1,4 +1,4 @@
-import { FontWeight } from '../types/typography';
+import { FontWeight } from '../types/typography.types';
 
 export const theme = {
   components: {

@@ -3,7 +3,7 @@ import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
-import Routes from 'routes/main-routes';
+import Routes from 'components/routing/main-routes';
 
 // import theme from './utils/theme';
 
