@@ -1,6 +1,7 @@
 import reactRefresh from '@vitejs/plugin-react-refresh';
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
+import svgr from 'vite-plugin-svgr';
 
 import { compilerOptions } from './tsconfig.json';
 
@@ -15,7 +16,10 @@ const alias = Object.entries(compilerOptions.paths).reduce((acc, [key, [value]])
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [reactRefresh()],
+  plugins: [reactRefresh(), svgr()],
+  esbuild: {
+    jsxInject: `import React from 'react'`,
+  },
   resolve: {
     alias,
   },

@@ -1,0 +1,10 @@
+feature based modules contains react components which are composed of smaller components defined under common/components.
+For e.g. a <Header /> component which may look like
+
+```
+<>
+   <Title />
+   <Image />
+   <Menu />
+</>
+```
